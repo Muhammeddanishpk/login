@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+}
+:root {
+  --main: rgba(24, 24, 24, 0.89);
+}
+body {
+  overflow-y: hidden;
+  overflow-x: hidden;
+  background: rgba(24, 24, 24, 0.89);
+  color: #fff;
+  height: 100vh;
+}
+.cont {
+  position: relative;
+  padding: 20px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+input {
+  /* position: fixed; */
+  /* background: rgba(24, 24, 24, 0.89); */
+  background: transparent;
+
+  color: #fff;
+  width: 143px;
+
+  padding: 5px;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid rgb(255, 0, 0);
+}
+
+#login {
+  background-color: transparent;
+  border: 1px solid #fff;
+  /* border: none; */
+  outline: none;
+  width: 70px;
+  padding: 8px;
+  margin-left: 34px;
+  margin-top: 10px;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  font-weight: 900;
+  border-radius: 3px;
+  position: absolute;
+  transition: background-color 0.5s, color 0.5s;
+}
+#login:hover {
+  background-color: rgba(255, 255, 255, 0.774);
+  color: black;
+}
+input::placeholder {
+  color: rgba(255, 255, 255, 0.589);
+  margin-right: auto;
+}
+#logout {
+  /* position: relative; */
+
+  background-color: rgb(206, 4, 47);
+  border: none;
+  outline: none;
+  width: 70px;
+  padding: 8px;
+  cursor: pointer;
+  color: #fff;
+  font-weight: 900;
+  border-radius: 3px;
+  transition: background 0.32s;
+}
+
+#logout:hover {
+  background: rgb(156, 22, 22);
+}
+.logoutBtn {
+  visibility: hidden;
+}
+
+.under {
+  border-bottom: 2px solid rgba(37, 167, 37, 0.562);
+}
+
+.title {
+  display: flex;
+  height: 50vh;
+  /* flex-direction: row;*/
+  justify-content: center;
+  align-items: center;
+  margin-top: -600px;
+  font-weight: 900;
+  text-shadow: 1px 1px 1px #fff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+form {
+  margin: 10px;
+  /* outline: 1px solid #fff; */
+}
+.main-title {
+  padding: 8px;
+  margin-left: -6px;
+  font-weight: 200;
+  font-size: 14px;
+  /* transform: translateY(-150px); */
+  color: rgb(207, 81, 81);
+  text-shadow: 1px 1px 1px rgba(184, 11, 11, 0.842);
+}
+
+.logt {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+
+
+.dark-mode{
+    position: absolute;
+    right: 0;
+    width: 20px;
+    /* background: #000; */
+    height: 20px;
+    /* border-radius: 20px; */
+    margin: 30px;
+    cursor: pointer;
+}
+.dark-mode span{
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.cont1{
+    background: rgba(224, 224, 224, 0.904);
+}
+.dark-tit{
+    color: #fff;
+}

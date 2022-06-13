@@ -96,6 +96,7 @@ input::placeholder {
   margin-top: -600px;
   font-weight: 900;
   text-shadow: 1px 1px 1px #fff;
+ text-transform: capitalize;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
